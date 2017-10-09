@@ -1,0 +1,7 @@
+#Mon Oct 09 06:11:13 WIB 2017
+base.0=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_163cf6951670367d4d267cb27d19785c6ecf28dd
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c172ff9b9f3391c6e1bb9db419f676faad3eeaea/classes.dex
+base.1=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c172ff9b9f3391c6e1bb9db419f676faad3eeaea
+file.0=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_163cf6951670367d4d267cb27d19785c6ecf28dd/classes.dex

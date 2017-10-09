@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.orion_stark.minutes_duplicate.Splash_Screen"
+    android:background="@drawable/splash_background">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="368dp"
+        android:layout_height="551dp"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp"
+        android:padding="35dp"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/title_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="MINUTES"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="48dp"
+            android:layout_marginBottom="20dp"/>
+        <TextView
+            android:id="@+id/description_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center_horizontal"
+            android:text="Get your fast mobile booking, descounts, and rewards!"
+            android:textColor="#ffffff"
+            android:textSize="17dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

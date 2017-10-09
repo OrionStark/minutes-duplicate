@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher.png",
+        "source": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/res/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/mipmap-mdpi/ic_launcher_round.png",
+        "source": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/res/mipmap-mdpi/ic_launcher_round.png"
+    }
+]
