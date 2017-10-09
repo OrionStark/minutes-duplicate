@@ -8,6 +8,11 @@
         android:minSdkVersion="18"
         android:targetSdkVersion="26" />
 
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
     <meta-data
         android:name="android.support.VERSION"
         android:value="26.0.0-alpha1" />
@@ -29,6 +34,10 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.orion_stark.minutes_duplicate.Welcome_Page" />
+        <activity
+            android:name="com.example.orion_stark.minutes_duplicate.Email_SignIn"
+            android:label="@string/title_activity_email__sign_in"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

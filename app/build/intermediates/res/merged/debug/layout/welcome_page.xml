@@ -8,13 +8,14 @@
     android:background="@drawable/background">
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="368dp"
-        android:layout_height="551dp"
-        android:padding="10dp">
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent">
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="match_parent"
-            android:layout_height="280dp"
+            android:layout_height="347dp"
             android:gravity="center_vertical"
             android:padding="30dp">
             <TextView
@@ -27,7 +28,8 @@
                 android:textColor="#ffffff"
                 android:textStyle="bold"
                 android:textSize="48dp"
-                android:layout_marginBottom="20dp"/>
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="-80dp"/>
             <TextView
                 android:id="@+id/description_text"
                 android:layout_width="wrap_content"
@@ -39,36 +41,43 @@
                 android:textSize="17dp"
                 android:textAlignment="center"/>
         </LinearLayout>
+
         <LinearLayout
-            android:orientation="vertical"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
+            android:orientation="vertical"
             android:padding="10dp">
+
             <Button
+                android:id="@+id/facebook_login"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:gravity="center"
                 android:background="#135084"
+                android:gravity="center"
                 android:text="CONTINUE WITH FACEBOOK"
                 android:textColor="#ffffff"
-                android:textSize="18dp"/>
+                android:textSize="18dp" />
+
             <Button
+                android:id="@+id/google_login"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:gravity="center"
                 android:background="#ffffff"
+                android:gravity="center"
                 android:text="CONTINUE WITH GOOGLE"
                 android:textColor="#135084"
-                android:textSize="18dp"/>
+                android:textSize="18dp" />
+
             <Button
+                android:id="@+id/email_login"
                 android:layout_width="match_parent"
                 android:layout_height="80dp"
-                android:gravity="center"
                 android:background="#00000000"
+                android:gravity="center"
                 android:text="CONTINUE WITH EMAIL"
                 android:textColor="#ffffff"
-                android:textSize="18dp"/>
+                android:textSize="18dp" />
         </LinearLayout>
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>

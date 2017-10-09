@@ -4,6 +4,10 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable-xxxhdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/design_ic_visibility_off.png",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/drawable-xxxhdpi-v4/design_ic_visibility_off.png"
+    },
+    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable-xxxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/design_ic_visibility.png",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/drawable-xxxhdpi-v4/design_ic_visibility.png"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4/abc_ic_star_black_36dp.png",

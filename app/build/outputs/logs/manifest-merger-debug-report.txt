@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:2:1-22:12
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:2:1-33:12
 	package
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:3:5-56
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
@@ -13,64 +13,89 @@ ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/mai
 	android:versionCode
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:6:5-71
+	android:name
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:7:5-71
+	android:name
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:8:5-72
+	android:name
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:5:5-20:19
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:10:5-31:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/dc40c0c31d53c06176c85ae2f48d43d4825bbbeb/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/cca0d2a1008f050151c9a7dcbff1454cbcccb746/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/orion_stark/.android/build-cache/be91e4a1d648f12d5c9c5170386447b2f9b855f8/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/orion_stark/.android/build-cache/31ad81eecf3a23594be101b329708498ddcd4430/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/orion_stark/.android/build-cache/8c263d3f270e441554d86bb362ff73e18c9d0817/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/orion_stark/.android/build-cache/6f917ec90fb05511d8414c838a8a9f15900f37e3/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/orion_stark/.android/build-cache/d013c631972a479255830b4d7173e5058db3d7e3/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/orion_stark/.android/build-cache/3ec342a924bbf35e016a50263696f0eb354c3295/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/dc40c0c31d53c06176c85ae2f48d43d4825bbbeb/output/AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/cca0d2a1008f050151c9a7dcbff1454cbcccb746/output/AndroidManifest.xml:26:5-20
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/orion_stark/.android/build-cache/ef84369d9ce62dce9c2937b23fdc782051563376/output/AndroidManifest.xml:29:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:9:5-20
 	android:label
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:8:9-41
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:13:9-41
 	android:supportsRtl
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:10:9-35
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:15:9-35
 	android:roundIcon
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:9:9-54
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:14:9-54
 	android:allowBackup
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:11:9-35
 	android:icon
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:7:9-43
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:12:9-43
 	android:theme
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:11:9-40
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:16:9-40
 activity#com.example.orion_stark.minutes_duplicate.Splash_Screen
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:12:9-18:20
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:17:9-25:20
 	android:screenOrientation
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:12:49-85
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:19:13-49
 	android:name
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:12:19-48
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:18:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:13:13-17:29
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:14:17-69
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:21:17-69
 	android:name
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:14:25-66
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:21:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:16:17-77
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:23:17-77
 	android:name
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:16:27-74
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:23:27-74
 activity#com.example.orion_stark.minutes_duplicate.Welcome_Page
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:19:9-59
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:26:9-50
 	android:name
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:19:19-47
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:26:19-47
+activity#com.example.orion_stark.minutes_duplicate.Email_SignIn
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:27:9-30:56
+	android:label
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:29:13-66
+	android:theme
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:30:13-44
+	android:name
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:28:13-41
 uses-sdk
 INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/dc40c0c31d53c06176c85ae2f48d43d4825bbbeb/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/cca0d2a1008f050151c9a7dcbff1454cbcccb746/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/b1871f6ed21875f70a8ce843a86c4832a1c7a1c8/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/orion_stark/.android/build-cache/be91e4a1d648f12d5c9c5170386447b2f9b855f8/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/orion_stark/.android/build-cache/31ad81eecf3a23594be101b329708498ddcd4430/output/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/orion_stark/.android/build-cache/8c263d3f270e441554d86bb362ff73e18c9d0817/output/AndroidManifest.xml:21:5-23:63
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/orion_stark/.android/build-cache/6f917ec90fb05511d8414c838a8a9f15900f37e3/output/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/orion_stark/.android/build-cache/d013c631972a479255830b4d7173e5058db3d7e3/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/orion_stark/.android/build-cache/3ec342a924bbf35e016a50263696f0eb354c3295/output/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/dc40c0c31d53c06176c85ae2f48d43d4825bbbeb/output/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/cca0d2a1008f050151c9a7dcbff1454cbcccb746/output/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/orion_stark/.android/build-cache/ef84369d9ce62dce9c2937b23fdc782051563376/output/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
@@ -78,16 +103,19 @@ MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:25:5-27:41
+ADDED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:25:5-27:41
+MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/dc40c0c31d53c06176c85ae2f48d43d4825bbbeb/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/cca0d2a1008f050151c9a7dcbff1454cbcccb746/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:recyclerview-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/b1871f6ed21875f70a8ce843a86c4832a1c7a1c8/output/AndroidManifest.xml:22:5-24:41
+MERGED from [com.android.support:transition:26.0.0-alpha1] /home/orion_stark/.android/build-cache/be91e4a1d648f12d5c9c5170386447b2f9b855f8/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-v4:26.0.0-alpha1] /home/orion_stark/.android/build-cache/31ad81eecf3a23594be101b329708498ddcd4430/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-media-compat:26.0.0-alpha1] /home/orion_stark/.android/build-cache/8c263d3f270e441554d86bb362ff73e18c9d0817/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-fragment:26.0.0-alpha1] /home/orion_stark/.android/build-cache/6f917ec90fb05511d8414c838a8a9f15900f37e3/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-core-ui:26.0.0-alpha1] /home/orion_stark/.android/build-cache/d013c631972a479255830b4d7173e5058db3d7e3/output/AndroidManifest.xml:25:5-27:41
 MERGED from [com.android.support:support-core-utils:26.0.0-alpha1] /home/orion_stark/.android/build-cache/3ec342a924bbf35e016a50263696f0eb354c3295/output/AndroidManifest.xml:25:5-27:41
-MERGED from [com.android.support:animated-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/dc40c0c31d53c06176c85ae2f48d43d4825bbbeb/output/AndroidManifest.xml:22:5-24:41
-MERGED from [com.android.support:support-vector-drawable:26.0.0-alpha1] /home/orion_stark/.android/build-cache/cca0d2a1008f050151c9a7dcbff1454cbcccb746/output/AndroidManifest.xml:22:5-24:41
 MERGED from [com.android.support:support-compat:26.0.0-alpha1] /home/orion_stark/.android/build-cache/ef84369d9ce62dce9c2937b23fdc782051563376/output/AndroidManifest.xml:25:5-27:41
 	android:value
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:27:9-38
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:27:9-38
 	android:name
-		ADDED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:26:9-47

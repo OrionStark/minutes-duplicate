@@ -3,6 +3,24 @@
 
     <item
         is-multidex="true"
+        jar="/home/orion_stark/.android/build-cache/be91e4a1d648f12d5c9c5170386447b2f9b855f8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="cddcd0fb93bc70e27325f2f715b2710332004ebb">
+        <dex dex="/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_5396933663184180451b210959c8c99cd0f252c6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/orion_stark/.android/build-cache/b1871f6ed21875f70a8ce843a86c4832a1c7a1c8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_02a18c114933ae4fd5c39e4609ce68e46ef39d59/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
@@ -16,8 +34,17 @@
         jumboMode="true"
         optimize="true"
         revision="26.0.2"
-        sha1="af776da5a757010c3edc459009050fc5586b7a41">
+        sha1="06696b948be8c1ebd4204510c0c7c893612ff234">
         <dex dex="/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_c172ff9b9f3391c6e1bb9db419f676faad3eeaea/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="26.0.2"
+        sha1="6a022bf00ccd0948a8180c505e8e458bbddd43a6">
+        <dex dex="/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c52ab58b4e4c188bebf5a869f6e1463adb04a570/classes.dex" />
     </item>
 
 </items>

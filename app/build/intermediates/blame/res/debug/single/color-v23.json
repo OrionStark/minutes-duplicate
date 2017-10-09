@@ -4,6 +4,10 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/color-v23/abc_tint_edittext.xml"
     },
     {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/color-v23/design_tint_password_toggle.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/color-v23/design_tint_password_toggle.xml"
+    },
+    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/color-v23/abc_tint_switch_thumb.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/color-v23/abc_tint_switch_thumb.xml"
     },

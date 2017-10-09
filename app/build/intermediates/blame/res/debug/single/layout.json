@@ -1,19 +1,107 @@
 [
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_popup_menu_header_item_layout.xml"
-    },
-    {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_expanded_menu_layout.xml"
-    },
-    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_icon.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_menu_item_layout.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_lines_media.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_search_view.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_media_custom.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_part_time.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_layout_snackbar.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_action.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_navigation_item.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_navigation_item.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_layout_snackbar_include.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_navigation_menu.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_text_input_password_icon.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_expanded_menu_layout.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
@@ -32,10 +120,6 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_dialog_title_material.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_lines_media.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_lines_media.xml"
-    },
-    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_bar_title_item.xml"
     },
@@ -52,24 +136,24 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_screen_simple.xml"
-    },
-    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_screen_content_include.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_search_view.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_screen_simple.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_screen_simple.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_search_dropdown_item_icons_2line.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_media_custom.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_layout_tab_text.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_bottom_sheet_dialog.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/welcome_page.xml",
@@ -80,16 +164,16 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_mode_close_item_material.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_mode_close_item_material.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_navigation_item_separator.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_part_time.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_part_time.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/email_signin.xml",
+        "source": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/res/layout/email_signin.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_action.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_action.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_menu_item_action_area.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_media.xml",
@@ -102,6 +186,10 @@
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/design_navigation_item_header.xml",
+        "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/layout/design_navigation_item_header.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -124,43 +212,19 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_screen_toolbar.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_mode_bar.xml"
-    },
-    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
-    },
-    {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_bar_up_container.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_alert_dialog_title_material.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/content_email__sign_in.xml",
+        "source": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/res/layout/content_email__sign_in.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_activity_chooser_view.xml"
-    },
-    {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view_list_item.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/abc_activity_chooser_view_list_item.xml"
-    },
-    {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_action_tombstone.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_action_tombstone.xml"
-    },
-    {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/layout/notification_template_part_chronometer.xml"
     }
 ]
