@@ -35,8 +35,8 @@
         </activity>
         <activity android:name="com.example.orion_stark.minutes_duplicate.Welcome_Page" />
         <activity
-            android:name="com.example.orion_stark.minutes_duplicate.Email_SignIn"
-            android:label="@string/title_activity_email__sign_in"
+            android:name="com.example.orion_stark.minutes_duplicate.Register"
+            android:label="@string/title_activity_register"
             android:theme="@style/AppTheme" />
     </application>
 

@@ -24,6 +24,10 @@
             </intent-filter>
         </activity>
         <activity android:name=".Welcome_Page" />
+        <activity
+            android:name=".Register"
+            android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

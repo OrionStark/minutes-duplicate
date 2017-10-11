@@ -71,14 +71,14 @@ activity#com.example.orion_stark.minutes_duplicate.Welcome_Page
 ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:26:9-50
 	android:name
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:26:19-47
-activity#com.example.orion_stark.minutes_duplicate.Email_SignIn
+activity#com.example.orion_stark.minutes_duplicate.Register
 ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:27:9-30:56
 	android:label
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:29:13-66
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:29:13-60
 	android:theme
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:30:13-44
 	android:name
-		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:28:13-41
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:28:13-37
 uses-sdk
 INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:5:5-7:41

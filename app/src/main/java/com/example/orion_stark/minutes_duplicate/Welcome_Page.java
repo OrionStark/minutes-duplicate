@@ -10,7 +10,6 @@ import android.view.View;
 import android.view.Window;
 import android.widget.Button;
 import android.widget.TextView;
-
 public class Welcome_Page extends AppCompatActivity {
     private TextView title_banner;
     private TextView description;
@@ -53,7 +52,7 @@ public class Welcome_Page extends AppCompatActivity {
         this.email_login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //
+                startActivity(new Intent(Welcome_Page.this, Register.class));
             }
         });
     }

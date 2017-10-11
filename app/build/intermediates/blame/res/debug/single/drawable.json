@@ -12,12 +12,16 @@
         "source": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/res/drawable/background.jpg"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable/notification_icon_background.xml"
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/arrow_back.png",
+        "source": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/res/drawable/arrow_back.png"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
         "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable/notification_icon_background.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
@@ -160,12 +164,12 @@
         "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
-        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable/abc_btn_check_material.xml"
-    },
-    {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
         "source": "/home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/res/drawable/abc_btn_check_material.xml"
     },
     {
         "merged": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/res/merged/debug/drawable/splash_background.jpg",

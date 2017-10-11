@@ -15,4 +15,5 @@
         completions."
     </string>
     <string name="title_activity_email__sign_in">SignIn</string>
+    <string name="title_activity_register">Register</string>
 </resources>

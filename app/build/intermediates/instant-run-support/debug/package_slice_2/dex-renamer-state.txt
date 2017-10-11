@@ -1,4 +1,4 @@
-#Mon Oct 09 05:24:39 WIB 2017
+#Wed Oct 11 13:32:00 WIB 2017
 base.0=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
 file.0=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

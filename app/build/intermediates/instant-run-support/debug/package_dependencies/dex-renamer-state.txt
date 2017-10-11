@@ -1,4 +1,4 @@
-#Tue Oct 10 05:33:59 WIB 2017
+#Wed Oct 11 13:31:56 WIB 2017
 file.2=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44a18da93ed267814901f77f8e06ad52d99afa3f/classes.dex
 base.2=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_44a18da93ed267814901f77f8e06ad52d99afa3f
 file.1=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f6d72fd9754b9c6b293bcc16f850976aceedfe81/classes.dex
