@@ -1,4 +1,4 @@
-#Wed Oct 11 13:59:25 WIB 2017
+#Mon Oct 16 05:10:06 WIB 2017
 base.0=/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_163cf6951670367d4d267cb27d19785c6ecf28dd
 renamed.1=classes.dex
 renamed.0=classes2.dex
