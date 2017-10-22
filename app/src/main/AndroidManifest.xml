@@ -27,6 +27,11 @@
         <activity
             android:name=".Register"
             android:label="@string/title_activity_register"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Login_Email" />
+        <activity
+            android:name=".ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
             android:theme="@style/AppTheme"></activity>
     </application>
 

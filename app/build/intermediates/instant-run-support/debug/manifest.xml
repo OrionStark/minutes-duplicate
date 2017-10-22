@@ -38,6 +38,11 @@
             android:name="com.example.orion_stark.minutes_duplicate.Register"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme" />
+        <activity android:name="com.example.orion_stark.minutes_duplicate.Login_Email" />
+        <activity
+            android:name="com.example.orion_stark.minutes_duplicate.ForgotPassword"
+            android:label="@string/title_activity_forgot_password"
+            android:theme="@style/AppTheme" />
 
         <provider
             android:name="com.android.tools.fd.runtime.InstantRunContentProvider"

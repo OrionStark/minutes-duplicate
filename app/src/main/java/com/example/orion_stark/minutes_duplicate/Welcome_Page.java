@@ -52,7 +52,8 @@ public class Welcome_Page extends AppCompatActivity {
         this.email_login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Welcome_Page.this, Register.class));
+                startActivity(new Intent(Welcome_Page.this, Login_Email.class));
+                finish();
             }
         });
     }

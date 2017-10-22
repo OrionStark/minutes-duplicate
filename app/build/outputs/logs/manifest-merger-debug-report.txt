@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:2:1-38:12
 	package
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:3:5-56
 		INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml
@@ -26,7 +26,7 @@ ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/mai
 	android:name
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:8:22-69
 application
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:10:5-31:19
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:10:5-36:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:design:26.0.0-alpha1] /home/orion_stark/.android/build-cache/afe91bd722b8e689a5c2a729e2c865aa03a4110e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:appcompat-v7:26.0.0-alpha1] /home/orion_stark/.android/build-cache/f5387400a86e61828cb9028b7ff0b72aaf9e6705/output/AndroidManifest.xml:29:5-20
@@ -72,13 +72,25 @@ ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/mai
 	android:name
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:26:19-47
 activity#com.example.orion_stark.minutes_duplicate.Register
-ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:27:9-30:56
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:27:9-30:47
 	android:label
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:29:13-60
 	android:theme
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:30:13-44
 	android:name
 		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:28:13-37
+activity#com.example.orion_stark.minutes_duplicate.Login_Email
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:31:9-49
+	android:name
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:31:19-46
+activity#com.example.orion_stark.minutes_duplicate.ForgotPassword
+ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:32:9-35:56
+	android:label
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:34:13-67
+	android:theme
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:35:13-44
+	android:name
+		ADDED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml:33:13-43
 uses-sdk
 INJECTED from /home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orion_stark/.android/build-cache/a50ba9a1f805482d29f5f3b724b82b12afcabebc/output/AndroidManifest.xml:5:5-7:41

@@ -16,4 +16,5 @@
     </string>
     <string name="title_activity_email__sign_in">SignIn</string>
     <string name="title_activity_register">Register</string>
+    <string name="title_activity_forgot_password">ForgotPassword</string>
 </resources>
