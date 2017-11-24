@@ -9,6 +9,4 @@ Just for education
 
 # Update
 Always update your cloning repository before do some works
-    git pull <repo-link> 
-
 
