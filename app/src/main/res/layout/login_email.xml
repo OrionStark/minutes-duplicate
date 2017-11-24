@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.orion_stark.minutes_duplicate.Login_Email"
+    tools:context="com.example.orion_stark.minutes_duplicate.controllers.Login_Email"
     android:background="@drawable/background">
    <android.support.v7.widget.LinearLayoutCompat
        android:orientation="vertical"

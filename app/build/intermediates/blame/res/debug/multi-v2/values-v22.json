@@ -1,0 +1,36 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/orionstark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/ae64a711c6bfa959c69e064b0b708767/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v22/values-v22.xml",
+            "map": [
+                {
+                    "source": "/home/orion_stark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/1ac49fa5ee3cd9c937d9f0862b7a3bbd/res/values-v22/values-v22.xml",
+                    "from": {
+                        "startLines": "2,3,4,9",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,130,217,553",
+                        "endLines": "2,3,8,13",
+                        "endColumns": "74,86,12,12",
+                        "endOffsets": "125,212,548,896"
+                    }
+                }
+            ]
+        }
+    ]
+}

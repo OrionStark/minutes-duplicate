@@ -25,12 +25,12 @@
         </activity>
         <activity android:name=".Welcome_Page" />
         <activity
-            android:name=".Register"
+            android:name=".controllers.Register"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Login_Email" />
+        <activity android:name=".controllers.Login_Email" />
         <activity
-            android:name=".ForgotPassword"
+            android:name=".controllers.ForgotPassword"
             android:label="@string/title_activity_forgot_password"
             android:theme="@style/AppTheme"></activity>
     </application>
