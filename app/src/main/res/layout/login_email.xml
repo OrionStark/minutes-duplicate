@@ -76,7 +76,7 @@
                android:id="@+id/forgot_password"
                android:layout_width="wrap_content"
                android:layout_height="wrap_content"
-               android:text="Forgot yuour password ?"
+               android:text="Forgot your password ?"
                android:textColor="#ffffff"
                android:textSize="16dp"/>
            <TextView

@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
+            "outputFile": "/home/evan/Documents/Mobile Project/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/ae64a711c6bfa959c69e064b0b708767/res/values-ldltr-v21/values-ldltr-v21.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "112",
-                        "endOffsets": "163"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-ldltr-v21/values-ldltr-v21.xml",
-            "map": [
-                {
-                    "source": "/home/orion_stark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/1ac49fa5ee3cd9c937d9f0862b7a3bbd/res/values-ldltr-v21/values-ldltr-v21.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/0da1eacfa783fa71fc1b7179d3099b0d/res/values-ldltr-v21/values-ldltr-v21.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
