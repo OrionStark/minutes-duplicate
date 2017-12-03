@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/home/evan/Documents/Mobile Project/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/0faec18f245b617702a8184afce57e2c/res/values-land/values-land.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/0da1eacfa783fa71fc1b7179d3099b0d/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "2,3,4,5",
+                        "startColumns": "4,4,4,4",
+                        "startOffsets": "55,125,189,260",
+                        "endColumns": "69,63,70,67",
+                        "endOffsets": "120,184,255,323"
+                    }
+                },
+                {
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/91dd69ba4f76288aaab5756f6278df2a/res/values-land/values-land.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,50 +30,6 @@
                         "endLines": "9",
                         "endColumns": "12",
                         "endOffsets": "505"
-                    }
-                },
-                {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/ae64a711c6bfa959c69e064b0b708767/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
-            "map": [
-                {
-                    "source": "/home/orion_stark/.gradle/caches/transforms-1/files-1.1/design-26.0.0-alpha1.aar/3f84fa8a03fb820faf388146b2fed969/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endLines": "5",
-                        "endColumns": "12",
-                        "endOffsets": "232"
-                    },
-                    "to": {
-                        "startLines": "6",
-                        "startColumns": "4",
-                        "startOffsets": "328",
-                        "endLines": "9",
-                        "endColumns": "12",
-                        "endOffsets": "505"
-                    }
-                },
-                {
-                    "source": "/home/orion_stark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/1ac49fa5ee3cd9c937d9f0862b7a3bbd/res/values-land/values-land.xml",
-                    "from": {
-                        "startLines": "2,3,4,5",
-                        "startColumns": "4,4,4,4",
-                        "startOffsets": "55,125,189,260",
-                        "endColumns": "69,63,70,67",
-                        "endOffsets": "120,184,255,323"
                     }
                 }
             ]

@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orion_stark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ka/values-ka.xml",
+            "outputFile": "/home/evan/Documents/Mobile Project/minutes-duplicate/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ka/values-ka.xml",
             "map": [
                 {
-                    "source": "/home/orion_stark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/1ac49fa5ee3cd9c937d9f0862b7a3bbd/res/values-ka/values-ka.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,164,272,395,499,610,698,803,916,1000,1082,1165,1278,1385,1483,1596,1700,1804,1926,2024,2105",
-                        "endColumns": "108,107,122,103,110,87,104,112,83,81,82,112,106,97,112,103,103,121,97,80,100",
-                        "endOffsets": "159,267,390,494,605,693,798,911,995,1077,1160,1273,1380,1478,1591,1695,1799,1921,2019,2100,2201"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/home/orionstark/AndroidStudioProjects/Minutes_duplicate/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-ka/values-ka.xml",
-            "map": [
-                {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/ae64a711c6bfa959c69e064b0b708767/res/values-ka/values-ka.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.0.0-alpha1.aar/0da1eacfa783fa71fc1b7179d3099b0d/res/values-ka/values-ka.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
