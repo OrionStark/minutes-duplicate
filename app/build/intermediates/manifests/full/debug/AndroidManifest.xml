@@ -13,10 +13,6 @@
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
 
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="26.0.0-alpha1" />
-
     <application
         android:allowBackup="true"
         android:debuggable="true"
@@ -49,6 +45,13 @@
             android:name="com.example.orion_stark.minutes_duplicate.Home_Page"
             android:theme="@style/AppTheme" >
         </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="26.1.0" />
+        <meta-data
+            android:name="android.arch.lifecycle.VERSION"
+            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>

@@ -12,6 +12,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.example.orion_stark.minutes_duplicate.Home_Page;
 import com.example.orion_stark.minutes_duplicate.R;
 
 import java.util.regex.Pattern;
@@ -63,6 +64,7 @@ public class Login_Email extends AppCompatActivity {
         this.login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                /*
                 if(!checkField(password_field.getText().toString()))
                 {
                     AlertDialog.Builder a = new AlertDialog.Builder(Login_Email.this);
@@ -77,6 +79,9 @@ public class Login_Email extends AppCompatActivity {
                     a.create();
                     a.show();
                 }
+                */
+                startActivity(new Intent(Login_Email.this, Home_Page.class));
+                finish();
             }
         });
     }
