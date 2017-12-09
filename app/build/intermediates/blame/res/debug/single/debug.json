@@ -956,6 +956,10 @@
         "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/res/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png"
     },
     {
+        "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/layout_content_about.xml.flat",
+        "source": "/home/orionstark/Documents/minutes-duplicate/app/src/main/res/layout/content_about.xml"
+    },
+    {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_notification_bg_normal.9.png.flat",
         "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/res/drawable-hdpi-v4/notification_bg_normal.9.png"
     },
@@ -986,6 +990,10 @@
     {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/color_abc_secondary_text_material_dark.xml.flat",
         "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/res/color/abc_secondary_text_material_dark.xml"
+    },
+    {
+        "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/layout_activity_about.xml.flat",
+        "source": "/home/orionstark/Documents/minutes-duplicate/app/src/main/res/layout/activity_about.xml"
     },
     {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/drawable-v21_abc_action_bar_item_background_material.xml.flat",
@@ -1492,6 +1500,10 @@
         "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/res/anim/design_bottom_sheet_slide_out.xml"
     },
     {
+        "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/layout_aboutus_item_type1.xml.flat",
+        "source": "/home/orionstark/Documents/minutes-duplicate/app/src/main/res/layout/aboutus_item_type1.xml"
+    },
+    {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/layout_barber_fragment.xml.flat",
         "source": "/home/orionstark/Documents/minutes-duplicate/app/src/main/res/layout/barber_fragment.xml"
     },
@@ -1514,6 +1526,10 @@
     {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/drawable-mdpi-v4_design_ic_visibility.png.flat",
         "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/res/drawable-mdpi-v4/design_ic_visibility.png"
+    },
+    {
+        "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/layout_fragment_about_us_item.xml.flat",
+        "source": "/home/orionstark/Documents/minutes-duplicate/app/src/main/res/layout/fragment_about_us_item.xml"
     },
     {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/color_abc_tint_switch_track.xml.flat",
@@ -1634,6 +1650,10 @@
     {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/drawable_abc_ratingbar_small_material.xml.flat",
         "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/layout_aboutus_item_type2.xml.flat",
+        "source": "/home/orionstark/Documents/minutes-duplicate/app/src/main/res/layout/aboutus_item_type2.xml"
     },
     {
         "merged": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/res/merged/debug/drawable-hdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

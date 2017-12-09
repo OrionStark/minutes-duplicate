@@ -33,9 +33,13 @@
             android:name=".controllers.ForgotPassword"
             android:label="@string/title_activity_forgot_password"
             android:theme="@style/AppTheme" />
-        <activity android:name=".Home_Page"
-            android:theme="@style/AppTheme">
-        </activity>
+        <activity
+            android:name=".Home_Page"
+            android:theme="@style/AppTheme"></activity>
+        <activity
+            android:name=".controllers.About"
+            android:label="@string/title_activity_about"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>

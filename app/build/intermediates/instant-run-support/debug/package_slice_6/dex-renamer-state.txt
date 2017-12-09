@@ -1,4 +1,0 @@
-#Sat Dec 09 16:44:32 WIB 2017
-base.0=/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/transforms/dexMerger/debug/7
-renamed.0=classes.dex
-file.0=/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/transforms/dexMerger/debug/7/classes.dex

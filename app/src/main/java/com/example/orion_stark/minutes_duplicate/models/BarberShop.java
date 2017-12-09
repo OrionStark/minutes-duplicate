@@ -9,13 +9,13 @@ import java.util.Date;
 public class BarberShop {
     public String nama;
     public Date jamBuka;
-    private float lat, lon;
+    private String lat, lon;
     public String desc;
     private int imgID;
     private int love;
     public String locationText;
 
-    public BarberShop(String nama, Date jamBuka, float lat, float lon,
+    public BarberShop(String nama, Date jamBuka, String lat, String lon,
                       String desc, int locationImg, String locationText){
         this.love = 0;
         this.nama = nama;

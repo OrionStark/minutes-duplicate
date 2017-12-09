@@ -1,7 +1,6 @@
 package com.example.orion_stark.minutes_duplicate.fragmentControllers;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
@@ -26,17 +25,18 @@ public class barber_fragment extends Fragment {
         view = inflater.inflate(R.layout.barber_fragment, container, false);
         recyclerView = view.findViewById(R.id.recycler_view);
         adapter = new RecyclerAdapter(this.recyclerView.getContext());
-        adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), 3.58752275f, 98.6906318f,
+        adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), "3.58752275", "98.6906318",
                 "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
-        adapter.isiPangkas(new BarberShop("Barber Box", new Date(), 3.58752945f, 98.69074378f,
+        adapter.isiPangkas(new BarberShop("Barber Box", new Date(), "3.58752945", "98.69074378",
                 "Hanya raja Salman yang boleh pangkas disini", R.drawable.barberbox, "Medan Mikroskil"));
-        adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), 3.58752275f, 98.6906318f,
+        adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), "3.58752275", "98.6906318",
                 "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
-        adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), 3.58752275f, 98.6906318f,
+        adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), "3.58752275", "98.6906318",
                 "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
         recyclerView.setAdapter(adapter);
         recyclerView.setHasFixedSize(true);
         recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
+        setComponents();
         return view;
     }
 
@@ -46,7 +46,7 @@ public class barber_fragment extends Fragment {
         refresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), 3.58752275f, 98.6906318f,
+                adapter.isiPangkas(new BarberShop("Next BarberShop", new Date(), "3.58752275", "98.6906318",
                         "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
             }
         });

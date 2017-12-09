@@ -8,7 +8,11 @@ import android.support.v7.widget.Toolbar;
 
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.appointment;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.barber_fragment;
+import com.example.orion_stark.minutes_duplicate.models.BarberShop;
 import com.example.orion_stark.minutes_duplicate.models.VpAdapter;
+
+import java.util.ArrayList;
+import java.util.List;
 
 public class Home_Page extends AppCompatActivity {
     Toolbar myToolBar;
