@@ -17,6 +17,25 @@ import com.example.orion_stark.minutes_duplicate.R;
 
 import java.util.regex.Pattern;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
+import android.content.Intent;
+import android.graphics.Paint;
+import android.graphics.Typeface;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.text.TextUtils;
+import android.view.View;
+import android.widget.Button;
+import android.widget.EditText;
+import android.widget.TextView;
+
+import com.example.orion_stark.minutes_duplicate.Home_Page;
+import com.example.orion_stark.minutes_duplicate.R;
+import com.example.orion_stark.minutes_duplicate.models.User;
+
+import java.util.regex.Pattern;
+
 public class Login_Email extends AppCompatActivity {
 
     private TextView title_apps;
@@ -32,6 +51,7 @@ public class Login_Email extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_email);
         this.setprops();
+        User user= new User();
     }
     private void setprops()
     {
@@ -52,7 +72,7 @@ public class Login_Email extends AppCompatActivity {
         this.forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(Login_Email.this, ForgotPassword.class));
+                //startActivity(new Intent(Login_Email.this, ForgotPassword.class));
             }
         });
         this.register_email_btn.setOnClickListener(new View.OnClickListener() {
@@ -64,8 +84,8 @@ public class Login_Email extends AppCompatActivity {
         this.login_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                /*
-                if(!checkField(password_field.getText().toString()))
+
+                /*if(!checkField(password_field.getText().toString()))
                 {
                     AlertDialog.Builder a = new AlertDialog.Builder(Login_Email.this);
                     a.setMessage("Some filed are empty, try tocheck it again");
@@ -78,10 +98,38 @@ public class Login_Email extends AppCompatActivity {
                     });
                     a.create();
                     a.show();
+                }*/
+                User user= new User();
+                Boolean _isvalid=true;
+                boolean _isemailexist = false;
+                for (int i=0;i<User.users.size();i++) {
+                    if (User.users.get(i).email.equals(email_field.getText().toString())) {
+                        _isemailexist = true;
+                        user = User.users.get(i);
+                        break;
+                    }
                 }
-                */
-                startActivity(new Intent(Login_Email.this, Home_Page.class));
-                finish();
+
+
+                if (TextUtils.isEmpty(email_field.getText())) {
+                    email_field.setError("Email is required");
+                    _isvalid = false;
+                } else if (!_isemailexist) {
+                    email_field.setError("Email is not registered.");
+                    _isvalid = false;
+                } else if (TextUtils.isEmpty(password_field.getText())) {
+                    password_field.setError("Password is required");
+                    _isvalid = false;
+                }
+                else if (!user.getPassword().equals(password_field.getText().toString())) {
+                    password_field.setError("Password is incorrect.");
+                    _isvalid = false;
+                }
+
+                if (_isvalid) {
+                    startActivity(new Intent(Login_Email.this, Home_Page.class));
+                    finish();
+                }
             }
         });
     }
