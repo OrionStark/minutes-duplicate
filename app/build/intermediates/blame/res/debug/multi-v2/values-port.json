@@ -1,6 +1,21 @@
 {
     "logs": [
         {
+            "outputFile": "/home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+            "map": [
+                {
+                    "source": "/home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/res/values-port/values-port.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "55",
+                        "endOffsets": "106"
+                    }
+                }
+            ]
+        },
+        {
             "outputFile": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
             "map": [
                 {
