@@ -31,6 +31,8 @@ public class Register extends AppCompatActivity {
     private EditText phoneNumber;
     private EditText password_confirm;
     private CheckBox check;
+    public  Boolean valid =true;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -61,35 +63,54 @@ public class Register extends AppCompatActivity {
         this.password_confirm = (EditText)findViewById(R.id.retype_password_field);
         this.check=(CheckBox)findViewById(R.id.agreement_check);
 
+
+
+
         this.signup_btn.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
 
                 if (TextUtils.isEmpty(firstName.getText().toString())) {
                     //jika form Email belum di isi / masih kosong
+                    valid=false;
                     firstName.setError("this field required");
                 } else if (TextUtils.isEmpty(lastName.getText().toString())) {
                     //jika form Username belum di isi / masih kosong
+                    valid=false;
                     lastName.setError("this field required");
                 } else if (TextUtils.isEmpty(email.getText().toString())) {
                     //jika form Passwrod belum di isi / masih kosong
+                    valid=false;
                     email.setError("this field required");
                 } else if (!isemailvalid(email.getText().toString())) {
+                    valid=false;
                     email.setError("Email is not valid");
                 }else if (TextUtils.isEmpty(phoneNumber.getText().toString())) {
+                    valid=false;
                     phoneNumber.setError("this field required");
-                } else if (password.getText().toString().length() <7 && password_confirm.getText().toString().length() <7) {
+                }else if (!(phoneNumber.getText().toString().length() <= 12)) {
+                    valid = false;
+                    phoneNumber.setError("Phone number max 12 digit");
+                }
+                else if (password.getText().toString().length() <7 && password_confirm.getText().toString().length() <7) {
+                    valid=false;
                     password.setError("Password at least is 7 character");
                 }else if (TextUtils.isEmpty(password.getText().toString())){
+                    valid=false;
                     password.setError("this field is required");
                 }else if (!password_confirm.getText().toString().equals(password.getText().toString())){
-                    password.setError("password not match");
+                    valid=false;
+                    password_confirm.setError("password not match");
                 } else if (!check.isChecked()){
+                    valid=false;
                     Toast.makeText(getApplicationContext(), "Please check user agreement", Toast.LENGTH_SHORT).show();
                 }
-                User.users.add(new User(firstName.getText().toString(),lastName.getText().toString(),email.getText().toString(),password.getText().toString(),phoneNumber.getText().toString()));
-                startActivity(new Intent(Register.this, Login_Email.class));
-                finish();
+
+                if (valid){
+                    User.users.add(new User(firstName.getText().toString(),lastName.getText().toString(),email.getText().toString(),password.getText().toString(),phoneNumber.getText().toString()));
+                    startActivity(new Intent(Register.this, Login_Email.class));
+                    finish();
+                }
 
             }
         });
