@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.orion_stark.minutes_duplicate.Profile_Page">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fitsSystemWindows="true"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                app:layout_collapseMode="pin" />
+        </android.support.design.widget.AppBarLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="56dp"
+            android:background="#f2f2f2">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/list_icon_profile"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_margin="20dp"
+                android:src="@drawable/cut_express_logo" />
+
+            <TextView
+                android:id="@+id/list_name_profile"
+                android:layout_width="210dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:textSize="30sp"
+                android:textColor="@android:color/black"/>
+
+            <ImageView
+                android:id="@+id/icon_edit"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="30dp"
+                tools:ignore="ContentDescription" />
+        </LinearLayout>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tablayOut"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:tabIndicatorColor="@android:color/holo_blue_dark"
+            app:tabSelectedTextColor="@android:color/black"
+            app:tabTextColor="@android:color/darker_gray"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="175dp"
+            tools:ignore="MissingConstraints">
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile" />
+
+            <android.support.design.widget.TabItem
+                android:id="@+id/wallet"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/wallet" />
+        </android.support.design.widget.TabLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="#f2f2f2">
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager1"
+                android:layout_width="match_parent"
+                android:layout_height="290dp">
+            </android.support.v4.view.ViewPager>
+        </ScrollView>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@android:color/holo_orange_dark">
+            <Button
+                android:id="@+id/btn_sign-out"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/sign_out"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_orange_dark"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
