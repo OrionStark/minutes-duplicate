@@ -1,0 +1,45 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/appointments_card"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/card_nama_pangkas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nama Tempat Pangkas"
+            android:textSize="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="#19547B"/>
+        <TextView
+            android:id="@+id/card_time_pangkas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:text="00:00"/>
+        <TextView
+            android:id="@+id/card_service_pangkas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Service"
+            android:layout_gravity="center"
+            android:layout_marginTop="35dp"
+            android:layout_marginBottom="5dp"
+            android:textSize="20dp"/>
+        <Button
+            android:id="@+id/about_card_pangkas"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:text="About"
+            android:background="#19547B"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

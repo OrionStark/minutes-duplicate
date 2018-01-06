@@ -1,0 +1,39 @@
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/empty_appointment"
+    android:layout_width="match_parent"
+    android:layout_height="180dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="10dp"
+    android:background="@drawable/border_radius">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#19547B">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="#F44336">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="No Appointment"
+                android:layout_gravity="center"
+                android:textSize="26dp"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Make an appointment"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textSize="20dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

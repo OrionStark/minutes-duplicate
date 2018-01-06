@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.orion_stark.minutes_duplicate.controllers.MakeAppoinment">
+    <android.support.v7.widget.LinearLayoutCompat
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eff1f2">
+        <android.support.design.widget.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/AppTheme.AppBarOverlay">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#135084"
+                app:popupTheme="@style/AppTheme.PopupOverlay"
+                app:title="Make Appointment" />
+
+        </android.support.design.widget.AppBarLayout>
+        <android.support.v7.widget.LinearLayoutCompat
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:padding="17dp">
+            <android.support.v7.widget.AppCompatTextView
+                android:id="@+id/nama_pangkas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nama Tempat Pangkas"
+                android:textSize="20dp"
+                android:layout_marginBottom="5dp"
+                android:textColor="#000000"/>
+            <android.support.v7.widget.AppCompatTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="15dp"
+                android:text="Services"/>
+            <android.support.v7.widget.AppCompatSpinner
+                android:id="@+id/services_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp">
+
+            </android.support.v7.widget.AppCompatSpinner>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"/>
+            <Spinner
+                android:id="@+id/time_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"></Spinner>
+            <ImageView
+                android:id="@+id/barber_img"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                />
+        </android.support.v7.widget.LinearLayoutCompat>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:id="@+id/appointment_submit"
+                android:text="@string/submit"
+                android:textSize="20sp"
+                android:textColor="@android:color/white"
+                android:background="@android:color/holo_orange_dark"
+                android:textAlignment="center"
+                android:gravity="center" />
+        </LinearLayout>
+    </android.support.v7.widget.LinearLayoutCompat>
+</android.support.constraint.ConstraintLayout>

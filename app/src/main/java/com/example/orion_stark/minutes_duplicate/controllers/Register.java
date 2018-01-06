@@ -104,6 +104,8 @@ public class Register extends AppCompatActivity {
                 } else if (!check.isChecked()){
                     valid=false;
                     Toast.makeText(getApplicationContext(), "Please check user agreement", Toast.LENGTH_SHORT).show();
+                } else {
+                    valid = true;
                 }
 
                 if (valid){

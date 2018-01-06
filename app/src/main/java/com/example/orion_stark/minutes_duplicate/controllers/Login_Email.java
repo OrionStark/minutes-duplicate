@@ -52,6 +52,7 @@ public class Login_Email extends AppCompatActivity {
         setContentView(R.layout.login_email);
         this.setprops();
         User user= new User();
+        User.users.add(new User("Robby", "Muhammad", "robby@gmail.com", "klasifikasi", "085275061998"));
     }
     private void setprops()
     {
@@ -72,7 +73,7 @@ public class Login_Email extends AppCompatActivity {
         this.forgot_password.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //startActivity(new Intent(Login_Email.this, ForgotPassword.class));
+                startActivity(new Intent(Login_Email.this, ForgotPassword.class));
             }
         });
         this.register_email_btn.setOnClickListener(new View.OnClickListener() {
@@ -100,7 +101,7 @@ public class Login_Email extends AppCompatActivity {
                     a.show();
                 }*/
                 User user= new User();
-                Boolean _isvalid=true;
+                boolean _isvalid=true;
                 boolean _isemailexist = false;
                 for (int i=0;i<User.users.size();i++) {
                     if (User.users.get(i).email.equals(email_field.getText().toString())) {
@@ -124,10 +125,12 @@ public class Login_Email extends AppCompatActivity {
                 else if (!user.getPassword().equals(password_field.getText().toString())) {
                     password_field.setError("Password is incorrect.");
                     _isvalid = false;
+                } else {
+                    _isvalid = true;
                 }
 
                 if (_isvalid) {
-                    startActivity(new Intent(Login_Email.this, Home_Page.class));
+                    startActivity(new Intent(Login_Email.this, Home_Page.class).putExtra("user_data", user.email));
                     finish();
                 }
             }

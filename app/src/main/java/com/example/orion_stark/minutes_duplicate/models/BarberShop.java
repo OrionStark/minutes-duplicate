@@ -1,6 +1,8 @@
 package com.example.orion_stark.minutes_duplicate.models;
 
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 /**
  * Created by orionstark on 11/24/17.
@@ -9,11 +11,13 @@ import java.util.Date;
 public class BarberShop {
     public String nama;
     public Date jamBuka;
-    private String lat, lon;
+    public String lat, lon;
     public String desc;
     private int imgID;
     private int love;
     public String locationText;
+    public String city;
+    public static List<BarberShop> barbers = new ArrayList<>();
 
     public BarberShop(String nama, Date jamBuka, String lat, String lon,
                       String desc, int locationImg, String locationText){
@@ -25,6 +29,7 @@ public class BarberShop {
         this.desc = desc;
         this.imgID = locationImg;
         this.locationText = locationText;
+        this.city = "Medan";
     }
 
     public int getImgID() {

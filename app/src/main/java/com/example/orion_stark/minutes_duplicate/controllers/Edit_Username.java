@@ -3,6 +3,8 @@ package com.example.orion_stark.minutes_duplicate.controllers;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
+import com.example.orion_stark.minutes_duplicate.R;
+
 public class Edit_Username extends AppCompatActivity {
 
     @Override

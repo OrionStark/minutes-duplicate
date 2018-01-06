@@ -11,7 +11,7 @@ import com.example.orion_stark.minutes_duplicate.R;
  */
 
 public class InformationHolder extends RecyclerView.ViewHolder {
-    public TextView name, phoneNumber, openTime;
+    public TextView name, desc, openTime;
     public InformationHolder(View itemView) {
         super(itemView);
         setComponent(itemView);
@@ -19,7 +19,7 @@ public class InformationHolder extends RecyclerView.ViewHolder {
 
     private void setComponent(View v) {
         name = v.findViewById(R.id.BarberShopName);
-        phoneNumber = v.findViewById(R.id.phoneNumber);
+        desc = v.findViewById(R.id.phoneNumber);
         openTime = v.findViewById(R.id.waktu);
     }
 }

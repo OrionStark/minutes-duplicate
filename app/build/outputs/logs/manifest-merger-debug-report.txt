@@ -1,233 +1,241 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-MERGED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/venom/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e05aa6774db57f00950462fe04eda269/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:cardview-v7:21.0.3] /home/venom/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/656783aefcde4ded434e82606b0cf023/AndroidManifest.xml:14:4-17:12
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:17:1-28:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/2a57b56186a8615b91ce4b601ad382fd/AndroidManifest.xml:2:1-11:12
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:17:1-31:12
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:17:1-31:12
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:17:1-30:12
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+MERGED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orionstark/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2d322e107b9560285d3cab0ed8b6cf7/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:cardview-v7:21.0.3] /home/orionstark/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/8e1ac84773b79a486474861d0b728568/AndroidManifest.xml:14:4-17:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:17:1-28:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/6950d919179fd0f57a14127381d3ac79/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:17:1-31:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:17:1-30:12
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
 	package
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:3:5-56
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:3:5-56
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:1-45:12
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:1-47:12
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:2:11-69
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:6:5-71
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:6:5-71
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:6:22-68
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:6:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:7:5-71
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:7:5-71
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:7:22-68
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:7:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:8:5-72
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:8:5-72
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:8:22-69
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:8:22-69
+uses-permission#android.permission.INTERNET
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:9:5-67
+	android:name
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:9:22-64
 application
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:10:5-43:19
-MERGED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/venom/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e05aa6774db57f00950462fe04eda269/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/venom/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e05aa6774db57f00950462fe04eda269/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:cardview-v7:21.0.3] /home/venom/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/656783aefcde4ded434e82606b0cf023/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:cardview-v7:21.0.3] /home/venom/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/656783aefcde4ded434e82606b0cf023/AndroidManifest.xml:16:5-19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:22:5-26:19
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/2a57b56186a8615b91ce4b601ad382fd/AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/2a57b56186a8615b91ce4b601ad382fd/AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:25:5-29:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:24:5-28:19
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:24:5-28:19
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:11:5-45:19
+MERGED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orionstark/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2d322e107b9560285d3cab0ed8b6cf7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orionstark/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2d322e107b9560285d3cab0ed8b6cf7/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:21.0.3] /home/orionstark/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/8e1ac84773b79a486474861d0b728568/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:cardview-v7:21.0.3] /home/orionstark/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/8e1ac84773b79a486474861d0b728568/AndroidManifest.xml:16:5-19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:22:5-26:19
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/6950d919179fd0f57a14127381d3ac79/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/6950d919179fd0f57a14127381d3ac79/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:25:5-29:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:24:5-28:19
 	android:supportsRtl
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:15:9-35
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:16:9-35
 	android:label
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:13:9-41
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:14:9-41
 	android:roundIcon
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:14:9-54
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:15:9-54
 	android:icon
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:12:9-43
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:13:9-43
 	android:allowBackup
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:11:9-35
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:12:9-35
 	android:theme
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:16:9-40
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:17:9-40
 activity#com.example.orion_stark.minutes_duplicate.Splash_Screen
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:17:9-25:20
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:18:9-26:20
 	android:screenOrientation
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:19:13-49
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:20:13-49
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:18:13-42
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:19:13-42
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:20:13-24:29
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:21:13-25:29
 action#android.intent.action.MAIN
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:21:17-69
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:22:17-69
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:21:25-66
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:22:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:23:17-77
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:24:17-77
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:23:27-74
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:24:27-74
 activity#com.example.orion_stark.minutes_duplicate.Welcome_Page
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:26:9-50
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:27:9-50
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:26:19-47
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:27:19-47
 activity#com.example.orion_stark.minutes_duplicate.controllers.Register
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:27:9-30:47
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:28:9-31:47
 	android:label
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:29:13-60
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:30:13-60
 	android:theme
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:30:13-44
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:31:13-44
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:28:13-49
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:29:13-49
 activity#com.example.orion_stark.minutes_duplicate.controllers.Login_Email
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:31:9-61
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:32:9-61
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:31:19-58
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:32:19-58
 activity#com.example.orion_stark.minutes_duplicate.controllers.ForgotPassword
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:32:9-35:47
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:33:9-36:47
 	android:label
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:34:13-67
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:35:13-67
 	android:theme
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:35:13-44
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:36:13-44
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:33:13-55
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:34:13-55
 activity#com.example.orion_stark.minutes_duplicate.Home_Page
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:36:9-38:56
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:37:9-39:47
 	android:theme
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:38:13-44
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:39:13-44
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:37:13-38
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:38:13-38
 activity#com.example.orion_stark.minutes_duplicate.controllers.About
-ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:39:9-42:56
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:40:9-43:47
 	android:label
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:41:13-57
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:42:13-57
 	android:theme
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:42:13-44
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:43:13-44
 	android:name
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml:40:13-46
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:41:13-46
+activity#com.example.orion_stark.minutes_duplicate.controllers.MakeAppoinment
+ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:44:9-73
+	android:name
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml:44:19-61
 uses-sdk
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-MERGED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/venom/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e05aa6774db57f00950462fe04eda269/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/venom/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/e05aa6774db57f00950462fe04eda269/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:cardview-v7:21.0.3] /home/venom/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/656783aefcde4ded434e82606b0cf023/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:cardview-v7:21.0.3] /home/venom/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/656783aefcde4ded434e82606b0cf023/AndroidManifest.xml:15:5-42
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:20:5-44
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/2a57b56186a8615b91ce4b601ad382fd/AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/2a57b56186a8615b91ce4b601ad382fd/AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:21:5-23:58
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:20:5-22:41
-MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:20:5-22:41
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orionstark/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2d322e107b9560285d3cab0ed8b6cf7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/orionstark/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/a2d322e107b9560285d3cab0ed8b6cf7/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:21.0.3] /home/orionstark/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/8e1ac84773b79a486474861d0b728568/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:cardview-v7:21.0.3] /home/orionstark/.gradle/caches/transforms-1/files-1.1/cardview-v7-21.0.3.aar/8e1ac84773b79a486474861d0b728568/AndroidManifest.xml:15:5-42
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:20:5-44
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/6950d919179fd0f57a14127381d3ac79/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/circleimageview-2.1.0.aar/6950d919179fd0f57a14127381d3ac79/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:21:5-23:58
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:20:5-22:41
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		ADDED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
-		INJECTED from /home/venom/AndroidStudioProjects/minutes-duplicate-master-2/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		ADDED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
+		INJECTED from /home/orionstark/Documents/minutes-duplicate/app/src/main/AndroidManifest.xml
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:appcompat-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/ba6d07c3742505dadb86f2d8a4738c56/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/21c68ec11e2555aa15f70b2722db593e/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:transition:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/fde0d881e6ae09a4ad45c6c4286da25c/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-v4:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/3fdcd4acb8c730a5aa59090b28aa3f0a/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/4a26d87bc4eed8e78b750fb7d33de82c/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/5f0b1c4806127f36df0e539229a36baa/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-fragment:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/8650d403317985923b5fabd72e5332e7/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-ui:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/d1dcf7596ccecd9c24b8ed45cd3ced99/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-media-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/fe4d1e47e97f3b8bc31f672fde18bd33/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-core-utils:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/bd23620445df86445243d29cf6c84b9c/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:26:9-28:38
-MERGED from [com.android.support:support-compat:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/f6afcba55123e092cc3feb9bb9409de2/AndroidManifest.xml:26:9-28:38
+ADDED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/4cae49dc8288eda943c293de95b9552a/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/8da335a3ea616be635ec1e1185c79cb0/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/5b11212dc02c9456da7f80ac031c9014/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/d03da589d2abb7e97f2770767005fc80/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/771a2cf0049728896e30c8ed69cafee9/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/7a3e6ff456d18c5956eb437d2ef9246b/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/e01bd479135d3df929bb350d4c02914a/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/6285de2ce1c967fb82d538eca3bac149/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/b170e2591f6937f1c6077121d28ac4cc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/AndroidManifest.xml:26:9-28:38
 	android:value
-		ADDED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:28:13-35
+		ADDED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:28:13-35
 	android:name
-		ADDED from [com.android.support:design:26.1.0] /home/venom/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/7caabc317cdba1701c58bd50dd08f322/AndroidManifest.xml:27:13-51
+		ADDED from [com.android.support:design:26.1.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/AndroidManifest.xml:27:13-51
 meta-data#android.arch.lifecycle.VERSION
-ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:25:9-27:47
+ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:25:9-27:47
 	android:value
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:27:13-44
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:27:13-44
 	android:name
-		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/venom/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/8d78f7ab427895f1bc132aeae60fea51/AndroidManifest.xml:26:13-58
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] /home/orionstark/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/c10fd2b449d7a64cd35dc7ae64e56916/AndroidManifest.xml:26:13-58

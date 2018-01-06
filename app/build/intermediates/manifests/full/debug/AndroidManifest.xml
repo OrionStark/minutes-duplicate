@@ -12,6 +12,7 @@
     <uses-permission android:name="android.permission.GET_ACCOUNTS" />
     <uses-permission android:name="android.permission.READ_PROFILE" />
     <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -48,6 +49,7 @@
             android:name="com.example.orion_stark.minutes_duplicate.controllers.About"
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme" />
+        <activity android:name="com.example.orion_stark.minutes_duplicate.controllers.MakeAppoinment" />
 
         <meta-data
             android:name="android.support.VERSION"

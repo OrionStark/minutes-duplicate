@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.widget.TextView;
 import android.os.Handler;
 
+import com.example.orion_stark.minutes_duplicate.models.BarberShop;
+
+import java.util.Date;
+
 import static com.example.orion_stark.minutes_duplicate.R.layout.welcome_page;
 
 public class Splash_Screen extends AppCompatActivity {
@@ -23,6 +27,16 @@ public class Splash_Screen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
+                BarberShop.barbers.add(new BarberShop("Next BarberShop", new Date(), "3.58752275", "98.6906388",
+                                "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
+                BarberShop.barbers.add(new BarberShop("Prev BarberShop", new Date(), "3.58752075", "98.6906378",
+                        "Pangkas disini gratis seumur hidup lo", R.drawable.cut_express, "Medan Amplas"));
+                BarberShop.barbers.add(new BarberShop("Far Away BarberShop", new Date(), "3.58792275", "98.6606318",
+                        "Pangkas disini gratis seumur hidup lo", R.drawable.cut_prima, "Medan Kiamat"));
+                BarberShop.barbers.add(new BarberShop("Man's not hot BarberShop", new Date(), "3.58772275", "95.6906318",
+                        "Pangkas disini gratis seumur hidup lo", R.drawable.hunky_dory, "Medan Tengah"));
+                BarberShop.barbers.add(new BarberShop("Big Shaq BarberShop", new Date(), "3.58752278", "98.6907318",
+                        "Pangkas disini gratis seumur hidup lo", R.drawable.cut_prima, "Medan Jauh"));
                 startActivity(new Intent(Splash_Screen.this,Welcome_Page.class));
                 finish();
             }

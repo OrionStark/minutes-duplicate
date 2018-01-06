@@ -6,17 +6,17 @@ import java.util.ArrayList;
  * Created by orionstark on 11/24/17.
  */
 public class User {
-    public int id;
     public String email;
-    public String password;
-    private String firstname;
-    private String lastname;
-    private String notelp;
+    private String password;
+    public String firstname;
+    public String lastname;
+    public String notelp;
 
     public static ArrayList<User> users = new ArrayList<>();
+    public BarberShop myAppointments;
 
-    public  User()
-    {}
+    public  User(){
+    }
     public User(String firstname,String lastname,String email,String password,String notelp){
         this.firstname=firstname;
         this.lastname=lastname;

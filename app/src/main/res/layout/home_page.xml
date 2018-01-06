@@ -24,7 +24,16 @@
                 app:layout_scrollFlags="scroll|enterAlways"
                 app:popupTheme="@style/AppTheme.PopupOverlay"
                 app:title="Minutes"
-                app:titleTextColor="#ffffff"></android.support.v7.widget.Toolbar>
+                app:titleTextColor="#ffffff">
+                <Button
+                    android:id="@+id/profile_btn"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:gravity="right"
+                    android:layout_marginLeft="235dp"
+                    android:text="P"
+                    android:textAlignment="center"/>
+            </android.support.v7.widget.Toolbar>
 
             <android.support.design.widget.TabLayout
                 android:id="@+id/tablayOut"
