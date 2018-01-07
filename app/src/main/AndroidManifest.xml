@@ -37,11 +37,20 @@
         <activity
             android:name=".Home_Page"
             android:theme="@style/AppTheme" />
+
         <activity
             android:name=".controllers.About"
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme" />
         <activity android:name=".controllers.MakeAppoinment"></activity>
+        <activity
+            android:name=".controllers.Profile_Page"
+            android:label="profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".controllers.Edit_Username"
+            android:label="Edit Username"
+            android:theme="@style/AppTheme" />
     </application>
 
 </manifest>

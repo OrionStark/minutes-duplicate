@@ -9,6 +9,9 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
+import com.example.orion_stark.minutes_duplicate.controllers.Login_Email;
+import com.example.orion_stark.minutes_duplicate.controllers.Profile_Page;
+import com.example.orion_stark.minutes_duplicate.controllers.Register;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.appointment;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.barber_fragment;
 import com.example.orion_stark.minutes_duplicate.models.BarberShop;
@@ -48,7 +51,7 @@ public class Home_Page extends AppCompatActivity {
         this.profile_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                // Tulis disini yan
+                startActivity(new Intent(Home_Page.this, Profile_Page.class));// Tulis disini yan
             }
         });
     }

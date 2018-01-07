@@ -37,6 +37,7 @@ public class Profile_Page extends AppCompatActivity {
         setComponent();
     }
     private void setComponent() {
+        user = new User();
         username = findViewById(R.id.list_name_profile);
         username.setText(user.firstname);
         iconProfile = findViewById(R.id.list_icon_profile);
@@ -46,7 +47,7 @@ public class Profile_Page extends AppCompatActivity {
         tblay = findViewById(R.id.tablayOut);
         adapter = new VpAdapter(getSupportFragmentManager());
         adapter.setFragment(new profile_fragment(), "Profile");
-        adapter.setFragment(new appointment(), "Appoinment");
+        adapter.setFragment(new appointment(), "Wallet");
         viewPager.setAdapter(adapter);
         tblay.setupWithViewPager(viewPager);
     }

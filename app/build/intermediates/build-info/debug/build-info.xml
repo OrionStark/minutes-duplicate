@@ -2,112 +2,111 @@
 <instant-run
     abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="21"
-    build-mode="HOT_WARM"
-    density="xhdpi"
+    build-mode="COLD"
+    density="xxhdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1515243638800"
-    token="3856907963724835799"
-    verifier="COMPATIBLE" >
+    timestamp="1515353089248"
+    token="7673777294632126446"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="22756" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="0" />
+        duration="5162" />
     <task
         name="verifier"
-        duration="0" />
+        duration="2483" />
 
     <artifact
-        location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-        type="RESOURCES" />
+        location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+        type="SPLIT" />
+    <artifact
+        location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/outputs/apk/debug/app-debug.apk"
+        type="SPLIT_MAIN" />
 
     <build
         build-mode="FULL"
-        timestamp="1515241484940"
+        timestamp="1515346295009"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/outputs/apk/debug/app-debug.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
     </build>
     <build
         build-mode="COLD"
-        ir-eligibility="CLASS_ADDED"
-        timestamp="1515243499522"
+        ir-eligibility="R_CLASS_CHANGE"
+        timestamp="1515351013646"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/outputs/apk/debug/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
-        build-mode="HOT_WARM"
-        timestamp="1515243638800"
-        verifier="COMPATIBLE" >
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1515353089248"
+        verifier="COLD_SWAP_REQUESTED" >
         <artifact
-            location="/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/instant-run-resources/resources-debug.ir.ap_"
-            type="RESOURCES" />
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
+            type="SPLIT" />
+        <artifact
+            location="/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

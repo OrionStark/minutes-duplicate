@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
+            "outputFile": "/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v23/values-v23.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/res/values-v23/values-v23.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c63dce8be5d4a3c2a1b5934b456cdd9/res/values-v23/values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",

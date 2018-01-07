@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/942cf9d1c22aaa18f72982a9d1cc3e36/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/822838b2a23140ac95d9e22d5ed905f2/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/res/values-sw600dp-v13/values-sw600dp-v13.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c63dce8be5d4a3c2a1b5934b456cdd9/res/values-sw600dp-v13/values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",
