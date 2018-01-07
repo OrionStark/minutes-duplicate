@@ -50,6 +50,14 @@
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme" />
         <activity android:name="com.example.orion_stark.minutes_duplicate.controllers.MakeAppoinment" />
+        <activity
+            android:name="com.example.orion_stark.minutes_duplicate.controllers.Profile_Page"
+            android:label="profile"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name="com.example.orion_stark.minutes_duplicate.controllers.Edit_Username"
+            android:label="Edit Username"
+            android:theme="@style/AppTheme" />
 
         <meta-data
             android:name="android.support.VERSION"

@@ -16,7 +16,6 @@
             android:layout_width="40dp"
             android:layout_height="30dp"
             android:layout_margin="10dp"
-            android:src="@drawable/cut_express"
             tools:ignore="ContentDescription" />
         <TextView
             android:layout_width="2dp"

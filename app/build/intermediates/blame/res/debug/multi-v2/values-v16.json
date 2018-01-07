@@ -1,10 +1,20 @@
 {
     "logs": [
         {
-            "outputFile": "/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
+            "outputFile": "/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/2ba64c7a1bebb96ff376a7f9dd35a31b/res/values-v16/values-v16.xml",
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/14c168a7dfb0badec5e570eed6da2392/res/values-v16/values-v16.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "65",
+                        "endOffsets": "116"
+                    }
+                },
+                {
+                    "source": "/home/evan/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/6c63dce8be5d4a3c2a1b5934b456cdd9/res/values-v16/values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -20,16 +30,6 @@
                         "endLines": "6",
                         "endColumns": "12",
                         "endOffsets": "289"
-                    }
-                },
-                {
-                    "source": "/home/orionstark/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/765a99b15aadb4af780c81137cc3fdcc/res/values-v16/values-v16.xml",
-                    "from": {
-                        "startLines": "2",
-                        "startColumns": "4",
-                        "startOffsets": "55",
-                        "endColumns": "65",
-                        "endOffsets": "116"
                     }
                 }
             ]

@@ -1,4 +1,4 @@
-#Sat Jan 06 19:59:16 WIB 2018
-base.0=/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/transforms/dexMerger/debug/4
+#Mon Jan 08 02:28:30 WIB 2018
+base.0=/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/transforms/dexMerger/debug/3
 renamed.0=classes.dex
-file.0=/home/orionstark/Documents/minutes-duplicate/app/build/intermediates/transforms/dexMerger/debug/4/classes.dex
+file.0=/media/evan/F11B-F13C/Mobile/minutes-duplicate/app/build/intermediates/transforms/dexMerger/debug/3/classes.dex
