@@ -1,7 +1,5 @@
 package com.example.orion_stark.minutes_duplicate.fragmentControllers;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
@@ -12,11 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.orion_stark.minutes_duplicate.R;
-import com.example.orion_stark.minutes_duplicate.models.BarberShop;
-import com.example.orion_stark.minutes_duplicate.models.RecyclerAdapter;
-import com.example.orion_stark.minutes_duplicate.models.profileRecyclerAdapter;
-
-import java.util.Date;
+import com.example.orion_stark.minutes_duplicate.adapters.profileRecyclerAdapter;
 
 public class profile_fragment extends Fragment {
     View view;
@@ -28,8 +22,10 @@ public class profile_fragment extends Fragment {
                              Bundle savedInstanceState) {
         view = inflater.inflate(R.layout.profile_fragment, container, false);
         recyclerView = view.findViewById(R.id.profile_recycler);
-        adapter = new profileRecyclerAdapter(this.recyclerView.getContext());
-
+        adapter = new profileRecyclerAdapter();
+        recyclerView.setAdapter(adapter);
+        recyclerView.setHasFixedSize(true);
+        recyclerView.setLayoutManager(new LinearLayoutManager(view.getContext()));
         return view;
     }
 }

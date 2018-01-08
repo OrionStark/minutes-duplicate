@@ -9,7 +9,7 @@ import java.util.List;
 
 public class Appointment {
     public static final String[] times_avail = { "10:00", "11:00", "12:00", "13:00", "16:00" };
-    public static final String[] default_services = { "Cukur Jembut", "Pangkas Normal", "Cuci Kemaluan", "Cuci Rambut", "Plus-plus Cukur"};
+    public static final String[] default_services = { "Cukur Janggut", "Pangkas Normal", "Cuci Kepala", "Cuci Rambut", "Pijat"};
     public BarberShop barberShop;
     public String time;
     public String service;

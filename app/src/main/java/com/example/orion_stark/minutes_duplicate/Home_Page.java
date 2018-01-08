@@ -9,16 +9,11 @@ import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
 
-import com.example.orion_stark.minutes_duplicate.controllers.Login_Email;
 import com.example.orion_stark.minutes_duplicate.controllers.Profile_Page;
-import com.example.orion_stark.minutes_duplicate.controllers.Register;
+import com.example.orion_stark.minutes_duplicate.controllers.SearchBarber;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.appointment;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.barber_fragment;
-import com.example.orion_stark.minutes_duplicate.models.BarberShop;
-import com.example.orion_stark.minutes_duplicate.models.VpAdapter;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.orion_stark.minutes_duplicate.adapters.VpAdapter;
 
 public class Home_Page extends AppCompatActivity {
     Toolbar myToolBar;
@@ -26,7 +21,8 @@ public class Home_Page extends AppCompatActivity {
     VpAdapter adapter;
     TabLayout tblay;
     Button profile_btn;
-    public static String user_email;
+    Button  search;
+    private String user_email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -38,6 +34,7 @@ public class Home_Page extends AppCompatActivity {
     private void setComponent() {
         myToolBar = findViewById(R.id.toolbar);
         this.profile_btn = findViewById(R.id.profile_btn);
+        this.search = findViewById(R.id.search_btn);
         setSupportActionBar(myToolBar);
         viewPager = findViewById(R.id.viewPager);
         tblay = findViewById(R.id.tablayOut);
@@ -51,7 +48,13 @@ public class Home_Page extends AppCompatActivity {
         this.profile_btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(Home_Page.this, Profile_Page.class));// Tulis disini yan
+                startActivity(new Intent(Home_Page.this, Profile_Page.class).putExtra("user_data", user_email));
+            }
+        });
+        search.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent( Home_Page.this, SearchBarber.class ));
             }
         });
     }

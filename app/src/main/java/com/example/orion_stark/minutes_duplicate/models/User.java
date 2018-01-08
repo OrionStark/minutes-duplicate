@@ -13,7 +13,6 @@ public class User {
     public String notelp;
 
     public static ArrayList<User> users = new ArrayList<>();
-    public BarberShop myAppointments;
 
     public  User(){
     }

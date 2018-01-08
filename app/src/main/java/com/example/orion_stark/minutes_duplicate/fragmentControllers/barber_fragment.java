@@ -1,9 +1,7 @@
 package com.example.orion_stark.minutes_duplicate.fragmentControllers;
 
 import android.os.Bundle;
-import android.os.Handler;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -12,15 +10,12 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.orion_stark.minutes_duplicate.R;
+import com.example.orion_stark.minutes_duplicate.adapters.RecyclerAdapter;
 import com.example.orion_stark.minutes_duplicate.models.BarberShop;
-import com.example.orion_stark.minutes_duplicate.models.RecyclerAdapter;
-
-import java.util.Date;
 
 public class barber_fragment extends Fragment {
     View view;
     RecyclerView recyclerView;
-    SwipeRefreshLayout refresh;
     RecyclerAdapter adapter;
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {

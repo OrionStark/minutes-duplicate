@@ -37,6 +37,8 @@ public class Splash_Screen extends AppCompatActivity {
                         "Pangkas disini gratis seumur hidup lo", R.drawable.hunky_dory, "Medan Tengah"));
                 BarberShop.barbers.add(new BarberShop("Big Shaq BarberShop", new Date(), "3.58752278", "98.6907318",
                         "Pangkas disini gratis seumur hidup lo", R.drawable.cut_prima, "Medan Jauh"));
+                BarberShop.barbers.add(new BarberShop("Mantpa Pangkas", new Date(), "3.549567", "98.698522",
+                        "Pangkas tidak gratis", R.drawable.hunky_dory, "Medan Amplas"));
                 startActivity(new Intent(Splash_Screen.this,Welcome_Page.class));
                 finish();
             }

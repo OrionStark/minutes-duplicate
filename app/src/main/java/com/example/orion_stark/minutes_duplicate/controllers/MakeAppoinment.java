@@ -1,5 +1,6 @@
 package com.example.orion_stark.minutes_duplicate.controllers;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -9,6 +10,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
+import android.widget.Toolbar;
 
 import com.example.orion_stark.minutes_duplicate.Home_Page;
 import com.example.orion_stark.minutes_duplicate.R;
@@ -25,6 +27,7 @@ public class MakeAppoinment extends AppCompatActivity {
     ImageView barber_image;
     User user;
     BarberShop barber;
+    String user_email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,6 +36,7 @@ public class MakeAppoinment extends AppCompatActivity {
         AfterViewInit();
     }
 
+    @SuppressLint("NewApi")
     private void viewInit() {
 
         // View Init
@@ -45,7 +49,7 @@ public class MakeAppoinment extends AppCompatActivity {
 
     private void AfterViewInit() {
         // Get User
-        String user_email = getIntent().getStringExtra("user_data");
+        this.user_email = getIntent().getStringExtra("user_data");
         for (int i = 0; i < User.users.size(); i++) {
             if (User.users.get(i).email.equals(user_email)) {
                 this.user = User.users.get(i);
@@ -76,7 +80,7 @@ public class MakeAppoinment extends AppCompatActivity {
             public void onClick(View view) {
                 Appointment.appointments.add( new Appointment(barber, Appointment.times_avail[time_spinner.getSelectedItemPosition()],
                         Appointment.default_services[services_spinner.getSelectedItemPosition()]));
-                startActivity(new Intent(MakeAppoinment.this, Home_Page.class));
+                //startActivity(new Intent(MakeAppoinment.this, Home_Page.class).putExtra("user_data", user_email));
                 finish();
             }
         });
@@ -85,7 +89,7 @@ public class MakeAppoinment extends AppCompatActivity {
 
     @Override
     public void onBackPressed() {
-        startActivity(new Intent(MakeAppoinment.this, Home_Page.class));
+        super.onBackPressed();
         finish();
     }
 }

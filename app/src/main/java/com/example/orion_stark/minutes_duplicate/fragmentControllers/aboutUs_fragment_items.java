@@ -9,7 +9,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.orion_stark.minutes_duplicate.R;
-import com.example.orion_stark.minutes_duplicate.models.MultipleViewRecyclerAdapter;
+import com.example.orion_stark.minutes_duplicate.adapters.MultipleViewRecyclerAdapter;
 
 
 public class aboutUs_fragment_items extends Fragment {

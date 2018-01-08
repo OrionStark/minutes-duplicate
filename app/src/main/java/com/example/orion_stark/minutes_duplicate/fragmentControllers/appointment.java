@@ -1,10 +1,7 @@
 package com.example.orion_stark.minutes_duplicate.fragmentControllers;
 
-import android.content.Context;
-import android.net.Uri;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentTransaction;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
@@ -13,7 +10,8 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.example.orion_stark.minutes_duplicate.R;
-import com.example.orion_stark.minutes_duplicate.models.AppointmentsRecycleAdapter;
+import com.example.orion_stark.minutes_duplicate.adapters.AppointmentsRecycleAdapter;
+import com.example.orion_stark.minutes_duplicate.models.Appointment;
 
 
 public class appointment extends Fragment {
@@ -32,6 +30,17 @@ public class appointment extends Fragment {
         rec_view.setAdapter(adapter);
         rec_view.setHasFixedSize(true);
         rec_view.setLayoutManager(new LinearLayoutManager( view.getContext() ));
+        refresh.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
+            @Override
+            public void onRefresh() {
+                refresh.setRefreshing(true);
+                rec_view.removeAllViews();
+                adapter.notifyItemRangeRemoved(0, adapter.getItemCount());
+                adapter.notifyItemRangeChanged(0, Appointment.appointments.size());
+                adapter.notifyDataSetChanged();
+                refresh.setRefreshing(false);
+            }
+        });
         return view;
     }
 }
