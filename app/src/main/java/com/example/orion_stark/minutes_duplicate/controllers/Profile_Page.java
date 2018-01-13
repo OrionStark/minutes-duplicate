@@ -1,10 +1,13 @@
 package com.example.orion_stark.minutes_duplicate.controllers;
 
 import android.annotation.SuppressLint;
+import android.content.Intent;
 import android.support.design.widget.TabLayout;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -23,14 +26,18 @@ public class Profile_Page extends AppCompatActivity {
     TextView username;
     CircleImageView iconProfile;
     ImageView iconEdit;
+    Button signOut;
+    ImageView editUsername;
+    private String user_email;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile_page);
+        user_email = getIntent().getStringExtra("user_data");
         setComponent();
     }
     private void setComponent() {
-        String user_email = getIntent().getStringExtra("user_data");
+
         User user = new User();
         for (int i = 0; i < User.users.size(); i++) {
             if (User.users.get(i).email.equals(user_email)) {
@@ -38,8 +45,10 @@ public class Profile_Page extends AppCompatActivity {
                 break;
             }
         }
+        this.signOut = findViewById(R.id.btn_sign_out);
+        this.editUsername = findViewById(R.id.icon_edit);
         username = findViewById(R.id.list_name_profile);
-        username.setText(user.firstname);
+        username.setText(user.firstname + " " + user.lastname);
         iconProfile = findViewById(R.id.list_icon_profile);
         iconEdit = findViewById(R.id.icon_edit);
 
@@ -49,5 +58,20 @@ public class Profile_Page extends AppCompatActivity {
         adapter.setFragment(new profile_fragment(), "Profile");
         viewPager.setAdapter(adapter);
         tblay.setupWithViewPager(viewPager);
+
+        this.signOut.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Profile_Page.this, Login_Email.class).putExtra("user_data", user_email));
+                finish();
+            }
+        });
+        this.editUsername.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new Intent(Profile_Page.this, Edit_Username.class).putExtra("user_data", user_email));
+
+            }
+        });
     }
 }

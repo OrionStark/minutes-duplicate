@@ -27,8 +27,8 @@ public class Splash_Screen extends AppCompatActivity {
         new Handler().postDelayed(new Runnable() {
             @Override
             public void run() {
-                BarberShop.barbers.add(new BarberShop("Next BarberShop", new Date(), "3.58752275", "98.6906388",
-                                "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
+                BarberShop.barbers.add(new BarberShop("Next BarberShop", new Date(), "3.585664", "98.689321",
+                        "Pangkas disini gratis seumur hidup lo", R.drawable.next_salon, "Medan Mikroskil"));
                 BarberShop.barbers.add(new BarberShop("Prev BarberShop", new Date(), "3.58752075", "98.6906378",
                         "Pangkas disini gratis seumur hidup lo", R.drawable.cut_express, "Medan Amplas"));
                 BarberShop.barbers.add(new BarberShop("Far Away BarberShop", new Date(), "3.58792275", "98.6606318",
