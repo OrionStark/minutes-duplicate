@@ -3,6 +3,7 @@ package com.example.orion_stark.minutes_duplicate.adapters;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -16,6 +17,7 @@ import com.example.orion_stark.minutes_duplicate.models.User;
 
 import java.util.ArrayList;
 import java.util.List;
+
 
 /**
  * Created by evan on 11/12/17.
@@ -45,8 +47,10 @@ public class profileRecyclerAdapter extends RecyclerView.Adapter<profileRecycler
             }
         }
         if ( position == 0 ) {
+            holder.imgIcon.setImageDrawable(v.getResources().getDrawable(R.drawable.icon_email));
             holder.textProfile.setText(user.email);
         } else if ( position == 1 ) {
+            holder.imgIcon.setImageDrawable(v.getResources().getDrawable(R.drawable.icon_phone));
             holder.textProfile.setText(user.notelp);
         }
     }
