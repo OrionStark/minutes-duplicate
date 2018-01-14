@@ -1,22 +1,15 @@
 package com.example.orion_stark.minutes_duplicate.adapters;
 
-import android.app.Activity;
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.drawable.Drawable;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.orion_stark.minutes_duplicate.Home_Page;
 import com.example.orion_stark.minutes_duplicate.ItemCardsCollection.profileRecyclerViewHolder;
 import com.example.orion_stark.minutes_duplicate.R;
-import com.example.orion_stark.minutes_duplicate.controllers.About;
 import com.example.orion_stark.minutes_duplicate.models.User;
-
-import java.util.ArrayList;
-import java.util.List;
+import com.example.orion_stark.minutes_duplicate.utils.Session;
 
 
 /**
@@ -38,14 +31,7 @@ public class profileRecyclerAdapter extends RecyclerView.Adapter<profileRecycler
 
     @Override
     public void onBindViewHolder(profileRecyclerViewHolder holder, final int position) {
-        String user_email = ((Activity) context).getIntent().getStringExtra("user_data");
-        User user = new User();
-        for ( int i = 0; i < User.users.size(); i++ ) {
-            if ( User.users.get(i).email.equals(user_email) ) {
-                user = User.users.get(i);
-                break;
-            }
-        }
+        User user = Session.getInstance(context).getUserData();
         if ( position == 0 ) {
             holder.imgIcon.setImageDrawable(v.getResources().getDrawable(R.drawable.icon_email));
             holder.textProfile.setText(user.email);

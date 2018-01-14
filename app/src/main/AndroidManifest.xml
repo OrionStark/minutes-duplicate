@@ -20,7 +20,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".Splash_Screen"
+            android:name=".activities.Splash_Screen"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,33 +28,34 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Welcome_Page" />
+        <activity android:name=".activities.Welcome_Page" />
         <activity
-            android:name=".controllers.Register"
+            android:name=".activities.Register"
             android:label="@string/title_activity_register"
             android:theme="@style/AppTheme" />
-        <activity android:name=".controllers.Login_Email" />
+        <activity android:name=".activities.Login_Email" />
         <activity
-            android:name=".controllers.ForgotPassword"
+            android:name=".activities.ForgotPassword"
             android:label="@string/title_activity_forgot_password"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".Home_Page"
+            android:name=".activities.Home_Page"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".controllers.About"
+            android:name=".activities.About"
             android:label="@string/title_activity_about"
             android:theme="@style/AppTheme" />
-        <activity android:name=".controllers.MakeAppoinment" />
+        <activity android:name=".activities.MakeAppoinment" />
         <activity
-            android:name=".controllers.Profile_Page"
+            android:name=".activities.Profile_Page"
             android:label="profile"
             android:theme="@style/AppTheme" />
         <activity
-            android:name=".controllers.Edit_Username"
+            android:name=".activities.Edit_Username"
             android:label="Edit Username"
             android:theme="@style/AppTheme" />
-        <activity android:name=".controllers.SearchBarber" />
+        <activity android:name=".activities.SearchBarber"
+            android:theme="@style/AppTheme.Transparent"/>
     </application>
 
 </manifest>

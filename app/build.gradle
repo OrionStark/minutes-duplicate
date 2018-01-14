@@ -5,7 +5,7 @@ android {
     buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "com.example.orion_stark.minutes_duplicate"
-        minSdkVersion 18
+        minSdkVersion 21
         targetSdkVersion 26
         versionCode 1
         versionName "1.0"
@@ -37,4 +37,5 @@ dependencies {
     compile 'de.hdodenhof:circleimageview:2.1.0'
     compile 'com.google.android.gms:play-services-maps:11.8.0'
     compile 'com.google.android.gms:play-services-location:11.8.0'
+    compile 'com.squareup.retrofit2:converter-gson:2.1.0'
 }

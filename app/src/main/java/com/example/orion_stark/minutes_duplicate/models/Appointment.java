@@ -13,11 +13,13 @@ public class Appointment {
     public BarberShop barberShop;
     public String time;
     public String service;
+    public User user;
     public static List<Appointment> appointments = new ArrayList<>();
 
     public Appointment( BarberShop barber, String time, String service ){
         this.barberShop = barber;
         this.time = time;
         this.service = service;
+        this.user = user;
     }
 }

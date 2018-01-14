@@ -10,9 +10,11 @@ import android.view.ViewGroup;
 import com.example.orion_stark.minutes_duplicate.ItemCardsCollection.Empty_Appointment;
 import com.example.orion_stark.minutes_duplicate.ItemCardsCollection.appointments_card;
 import com.example.orion_stark.minutes_duplicate.R;
-import com.example.orion_stark.minutes_duplicate.controllers.About;
+import com.example.orion_stark.minutes_duplicate.activities.About;
 import com.example.orion_stark.minutes_duplicate.models.Appointment;
 import com.example.orion_stark.minutes_duplicate.models.BarberShop;
+import com.example.orion_stark.minutes_duplicate.models.User;
+import com.example.orion_stark.minutes_duplicate.utils.Session;
 
 /**
  * Created by orionstark on 1/6/18.
@@ -51,7 +53,7 @@ public class AppointmentsRecycleAdapter extends RecyclerView.Adapter<RecyclerVie
 
     @Override
     public int getItemCount() {
-        if ( Appointment.appointments.size() > 0 ) {
+        if ( Appointment.appointments.size() > 0  && Appointment.appointments != null) {
             return Appointment.appointments.size();
         } else {
             return 1;

@@ -12,6 +12,8 @@ import android.view.ViewGroup;
 import com.example.orion_stark.minutes_duplicate.R;
 import com.example.orion_stark.minutes_duplicate.adapters.AppointmentsRecycleAdapter;
 import com.example.orion_stark.minutes_duplicate.models.Appointment;
+import com.example.orion_stark.minutes_duplicate.models.User;
+import com.example.orion_stark.minutes_duplicate.utils.Session;
 
 
 public class appointment extends Fragment {

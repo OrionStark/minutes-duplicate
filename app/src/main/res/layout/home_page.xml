@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_root_layout"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.orion_stark.minutes_duplicate.Home_Page">
+    tools:context="com.example.orion_stark.minutes_duplicate.activities.Home_Page">
 
     <LinearLayout
         android:orientation="vertical"
@@ -55,13 +56,13 @@
                     android:id="@+id/barbersList"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Barbers" />
+                    android:icon="@drawable/home_icon_barber"/>
 
                 <android.support.design.widget.TabItem
-                    android:id="@+id/appoinment"
+                    android:id="@+id/appoinment_list"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Appoinment" />
+                    android:icon="@drawable/calendar_icon"/>
             </android.support.design.widget.TabLayout>
 
         </android.support.design.widget.AppBarLayout>

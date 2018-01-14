@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.orion_stark.minutes_duplicate.Splash_Screen"
+    tools:context="com.example.orion_stark.minutes_duplicate.activities.Splash_Screen"
     android:background="@drawable/splash_background">
 
     <LinearLayout

@@ -1,6 +1,5 @@
 package com.example.orion_stark.minutes_duplicate.adapters;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
@@ -8,10 +7,10 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-import com.example.orion_stark.minutes_duplicate.controllers.MakeAppoinment;
+import com.example.orion_stark.minutes_duplicate.activities.MakeAppoinment;
 import com.example.orion_stark.minutes_duplicate.R;
 import com.example.orion_stark.minutes_duplicate.ItemCardsCollection.RecyclerViewHolder;
-import com.example.orion_stark.minutes_duplicate.controllers.About;
+import com.example.orion_stark.minutes_duplicate.activities.About;
 import com.example.orion_stark.minutes_duplicate.models.BarberShop;
 
 /**
