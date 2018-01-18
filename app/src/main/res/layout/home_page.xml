@@ -59,10 +59,28 @@
                     android:icon="@drawable/home_icon_barber"/>
 
                 <android.support.design.widget.TabItem
+                    android:id="@+id/favorite_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/heart_white"/>
+
+                <android.support.design.widget.TabItem
                     android:id="@+id/appoinment_list"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:icon="@drawable/calendar_icon"/>
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/folder_list"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/folder_icon"/>
+
+                <android.support.design.widget.TabItem
+                    android:id="@+id/notif_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:icon="@drawable/bell_icon"/>
             </android.support.design.widget.TabLayout>
 
         </android.support.design.widget.AppBarLayout>
