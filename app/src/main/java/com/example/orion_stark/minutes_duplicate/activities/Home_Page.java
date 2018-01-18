@@ -10,10 +10,14 @@ import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+
 import com.example.orion_stark.minutes_duplicate.R;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.appointment;
 import com.example.orion_stark.minutes_duplicate.fragmentControllers.barber_fragment;
 import com.example.orion_stark.minutes_duplicate.adapters.VpAdapter;
+import com.example.orion_stark.minutes_duplicate.fragmentControllers.barber_salon;
+import com.example.orion_stark.minutes_duplicate.fragmentControllers.favorite_fragment;
+import com.example.orion_stark.minutes_duplicate.fragmentControllers.notifikasi;
 import com.example.orion_stark.minutes_duplicate.utils.CircularAnimation;
 
 public class Home_Page extends AppCompatActivity {
@@ -45,14 +49,20 @@ public class Home_Page extends AppCompatActivity {
         // Kalau halaman love dan yang lain untuk ViewPagernya
         // Perhatikan urutan penambahannya sesuai yang ada di Minutes
         adapter.setFragment(new barber_fragment(), null);
+        adapter.setFragment(new favorite_fragment(), null);
         adapter.setFragment(new appointment(), null);
+        adapter.setFragment(new barber_salon(), null);
+        adapter.setFragment(new notifikasi(), null);
         viewPager.setAdapter(adapter);
         viewPager.getAdapter().notifyDataSetChanged();
         tblay.setupWithViewPager(viewPager);
 
         // Set icon disini
         tblay.getTabAt(0).setIcon(R.drawable.home_icon_barber);
-        tblay.getTabAt(1).setIcon(R.drawable.calendar_icon);
+        tblay.getTabAt(1).setIcon(R.drawable.heart_white);
+        tblay.getTabAt(2).setIcon(R.drawable.calendar_icon);
+        tblay.getTabAt(3).setIcon(R.drawable.folder_icon);
+        tblay.getTabAt(4).setIcon(R.drawable.bell_icon);
 
         this.profile_btn.setOnClickListener(new View.OnClickListener() {
             @Override
