@@ -38,11 +38,14 @@ public class profileRecyclerAdapter extends RecyclerView.Adapter<profileRecycler
         } else if ( position == 1 ) {
             holder.imgIcon.setImageDrawable(v.getResources().getDrawable(R.drawable.icon_phone));
             holder.textProfile.setText(user.notelp);
+        } else if ( position == 2) {
+            holder.imgIcon.setImageDrawable(v.getResources().getDrawable(R.drawable.icon_exclamation));
+            holder.textProfile.setText("Terms and Privacy Policy");
         }
     }
 
     @Override
     public int getItemCount() {
-        return 2;
+        return 3;
     }
 }

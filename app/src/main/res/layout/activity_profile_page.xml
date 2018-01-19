@@ -85,13 +85,15 @@
             android:layout_gravity="bottom"
             android:gravity="bottom"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_height="60sp"
             android:background="@android:color/holo_orange_dark">
             <Button
                 android:id="@+id/btn_sign-out"
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
+                android:layout_height="match_parent"
                 android:text="@string/sign_out"
+                android:textAlignment="center"
                 android:textSize="20sp"
                 android:layout_gravity="bottom"
                 android:textColor="@android:color/white"

@@ -27,21 +27,22 @@
                 app:title="Minutes"
                 app:titleTextColor="#ffffff">
                 <Button
-                    android:id="@+id/profile_btn"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/search_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:gravity="right"
                     android:layout_marginLeft="186dp"
-                    android:layout_marginRight="5dp"
-                    android:background="@android:drawable/stat_notify_more"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/search"
                     android:textAlignment="center"/>
                 <Button
-                    android:id="@+id/search_btn"
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:id="@+id/profile_btn"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:gravity="right"
                     android:textAlignment="center"
-                    android:background="@android:drawable/ic_menu_myplaces"/>
+                    android:background="@drawable/profil" />
+
             </android.support.v7.widget.Toolbar>
 
             <android.support.design.widget.TabLayout
